@@ -71,22 +71,22 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/riobotsupport"),
-        InlineKeyboardButton(text="🖲 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/riogroupsupport"),
+        InlineKeyboardButton(text="📌𝗰𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/eth3realsms"),
+        InlineKeyboardButton(text="🖲𝗴𝗿𝗼𝘂𝗽", url="https://t.me/ethreborn"),
     ],
     [
-        InlineKeyboardButton(text="👑 Developer", url="https://t.me/riio00"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/rio2robot?start=help"),
+        InlineKeyboardButton(text="👑 Developer", url="https://t.me/fqcxuu"),
+        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/Upiirobot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/rio2robot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/Upiirobot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/f579b16dfb374b6235a04.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/81543b0263de37fdb7efa.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/f579b16dfb374b6235a04.jpg)
