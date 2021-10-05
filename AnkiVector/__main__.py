@@ -63,8 +63,8 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙖𝙡𝙡𝙤 𝙟𝙖𝙣𝙜𝙠𝙖𝙧 𝙨𝙞𝙧𝙞𝙩, 𝙖𝙞𝙣𝙜 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙞𝙠𝙞𝙣 [𝗎𝗉𝗂](https://t.me/fqcxuu) 𓂸
-𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 / 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 𝘿𝙚𝙣𝙜𝙖𝙣 𝘽𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙈𝙤𝙙𝙪𝙡 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙖𝙧𝙞𝙠. 𝘿𝙞𝙗𝙪𝙖𝙩 𝙊𝙡𝙚𝙝 [𝖡𝖺𝗉𝖺𝗅𝗈](t.me/fqcxuu)
+𝙃𝙖𝙡𝙡𝙤 𝙟𝙖𝙣𝙜𝙠𝙖𝙧 𝙨𝙞𝙧𝙞𝙩, 𝙖𝙞𝙣𝙜 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙞𝙠𝙞𝙣 [bapalo](https://t.me/fqcxuu) 𓂸
+𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 / 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 𝘿𝙚𝙣𝙜𝙖𝙣 𝘽𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙈𝙤𝙙𝙪𝙡 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙖𝙧𝙞𝙠.
 𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝙖𝙮𝙖 🕹
  
 """
@@ -89,7 +89,7 @@ buttons = [
 ANKIVECTOR_IMG = "https://telegra.ph/file/81543b0263de37fdb7efa.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/f579b16dfb374b6235a04.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/81543b0263de37fdb7efa.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
