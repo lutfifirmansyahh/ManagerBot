@@ -63,9 +63,10 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙖𝙡𝙡𝙤 𝙟𝙖𝙣𝙜𝙠𝙖𝙧 𝙨𝙞𝙧𝙞𝙩, 𝙖𝙞𝙣𝙜 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙞𝙠𝙞𝙣 [bapalo](https://t.me/fqcxuu) 𓂸
+𝙃𝙖𝙡𝙡𝙤 𝙆𝙤𝙣𝙩𝙤𝙡, 𝙖𝙞𝙣𝙜 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙪𝙖𝙩 𝙖𝙢𝙖 [𝗯𝗮𝗽𝗮𝗹𝗼](https://t.me/fqcxuu) 𓂸
 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 / 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 𝘿𝙚𝙣𝙜𝙖𝙣 𝘽𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙈𝙤𝙙𝙪𝙡 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙖𝙧𝙞𝙠.
-𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝙖𝙮𝙖 🕹
+𝙅𝙖𝙣𝙜𝙖𝙣 𝙥𝙖𝙠𝙚 𝙨𝙮 𝙟𝙞𝙠𝙖 𝙙𝙞 𝙥𝙥 𝙡𝙪 𝙖𝙙𝙖 𝙨𝙨𝙖𝙣 𝙫𝙘𝙜, 𝙖𝙡𝙖𝙮 𝙣𝙜𝙚𝙣𝙩𝙤𝙩.
+𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝙮𓂺
  
 """
 
@@ -75,12 +76,12 @@ buttons = [
         InlineKeyboardButton(text="🖲 𝙂𝗿𝗼𝘂𝗽", url="https://t.me/ethreborn"),
     ],
     [
-        InlineKeyboardButton(text="👑 Developer", url="https://t.me/fqcxuu"),
+        InlineKeyboardButton(text="👑 𝗢𝘄𝗻 𝗴𝗮𝗻𝘁𝗲𝗻𝗸", url="https://t.me/fqcxuu"),
         InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/Upiirobot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/Upiirobot?startgroup=true"
+            text="🟣𝗮𝗱𝗱 𝘀𝘆 𝗸𝗲 𝗴𝗿𝘂𝗽🟣", url="t.me/Upiirobot?startgroup=true"
         ),
     ],
 ]
@@ -90,12 +91,12 @@ ANKIVECTOR_IMG = "https://telegra.ph/file/81543b0263de37fdb7efa.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/81543b0263de37fdb7efa.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
+✪ /start: 𓂸
+✪ /help: 𓂺
+✪ /donate: 𓂸
 ✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+   ◔ in PM: 𓂸will send you your settings for all supported modules.
+   ◔ in a Group: 𓂺will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -227,7 +228,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "𝗕𝗮𝗸𝗲𝗸𝗼𝗸 𝗞𝗼𝗻𝘁𝗼𝗹!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
