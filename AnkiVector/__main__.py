@@ -63,10 +63,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙖𝙡𝙡𝙤 𝙆𝙤𝙣𝙩𝙤𝙡, 𝙖𝙞𝙣𝙜 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙪𝙖𝙩 𝙖𝙢𝙖 [𝗯𝗮𝗽𝗮𝗹𝗼](https://t.me/fqcxuu) 𓂸
+𝙃𝙖𝙡𝙡𝙤 𝗛𝗮𝘀𝗵𝗶𝘀𝗵𝗲𝗿𝘀, 𝘀𝗮𝘆𝗮 𝗮𝗱𝗮𝗹𝗮𝗵 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙪𝙖𝙩 [𝗨𝗽𝗶](https://t.me/fqcxuu)
 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 / 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 𝘿𝙚𝙣𝙜𝙖𝙣 𝘽𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙈𝙤𝙙𝙪𝙡 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙖𝙧𝙞𝙠.
-𝙅𝙖𝙣𝙜𝙖𝙣 𝙥𝙖𝙠𝙚 𝙨𝙮 𝙟𝙞𝙠𝙖 𝙙𝙞 𝙥𝙥 𝙡𝙪 𝙖𝙙𝙖 𝙨𝙨𝙖𝙣 𝙫𝙘𝙜, 𝙖𝙡𝙖𝙮 𝙣𝙜𝙚𝙣𝙩𝙤𝙩.
-𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝙮𓂺
+𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝗮𝘆𝗮.🙌
  
 """
 
@@ -87,10 +86,10 @@ buttons = [
 ]
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/81543b0263de37fdb7efa.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/88d3cdf6cc07491caf012.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/81543b0263de37fdb7efa.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/88d3cdf6cc07491caf012.jpg)
 ✪ /start: 𓂸
 ✪ /help: 𓂺
 ✪ /donate: 𓂸
