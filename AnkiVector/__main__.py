@@ -63,8 +63,8 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙖𝙡𝙡𝙤 𝗛𝗮𝘀𝗵𝗶𝘀𝗵𝗲𝗿𝘀, 𝘀𝗮𝘆𝗮 𝗮𝗱𝗮𝗹𝗮𝗵 𝗕𝗼𝘁 𝗠𝗮𝗻𝗮𝗴𝗲 𝙮𝙖𝙣𝙜 𝙙𝙞𝙗𝙪𝙖𝙩 [𝗨𝗽𝗶](https://t.me/fqcxuu)
-𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 / 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 𝘿𝙚𝙣𝙜𝙖𝙣 𝘽𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙈𝙤𝙙𝙪𝙡 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙖𝙧𝙞𝙠.
+𝙃𝙖𝙡𝙡𝙤 𝗛𝗮𝘀𝗵𝗶𝘀𝗵𝗲𝗿𝘀, 𝙎𝙖𝙮𝙖 𝙖𝙙𝙖𝙡𝙖𝙝 𝘽𝙤𝙩 𝙈𝙖𝙣𝙖𝙜𝙚 𝙮𝙖𝙣𝙜 𝙙𝙞𝙧𝙖𝙣𝙘𝙖𝙣𝙜 𝙪𝙣𝙩𝙪𝙠 𝙢𝙚𝙣𝙜𝙖𝙢𝙖𝙣𝙠𝙖𝙣 𝙜𝙧𝙪𝙥 𝙖𝙣𝙙𝙖. 
+𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧 & 𝙈𝙪𝙨𝙞𝙠 𝘽𝙤𝙩 𝗕𝗨𝗞𝗔𝗡 𝗞𝗔𝗟𝗘𝗡𝗚-𝗞𝗔𝗟𝗘𝗡𝗚.
 𝙏𝙪𝙡𝙞𝙨 /help 𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙗𝙚𝙧𝙗𝙖𝙜𝙖𝙞 𝙛𝙞𝙩𝙪𝙧 𝙢𝙚𝙣𝙖𝙧𝙞𝙠 𝙙𝙖𝙧𝙞 𝙨𝗮𝘆𝗮.🙌
  
 """
@@ -75,12 +75,12 @@ buttons = [
         InlineKeyboardButton(text="🖲 𝙂𝗿𝗼𝘂𝗽", url="https://t.me/ethreborn"),
     ],
     [
-        InlineKeyboardButton(text="👑 𝗢𝘄𝗻 𝗴𝗮𝗻𝘁𝗲𝗻𝗸", url="https://t.me/fqcxuu"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/Upiirobot?start=help"),
+        InlineKeyboardButton(text="👑 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿", url="https://t.me/fqcxuu"),
+        InlineKeyboardButton(text="❔ 𝗛𝗘𝗟𝗣", url="http://t.me/Upiirobot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="🟣𝗮𝗱𝗱 𝘀𝘆 𝗸𝗲 𝗴𝗿𝘂𝗽🟣", url="t.me/Upiirobot?startgroup=true"
+            text="𝗧𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝘀𝗮𝘆𝗮 𝗸𝗲 𝗴𝗿𝘂𝗽 𝗮𝗻𝗱𝗮", url="t.me/Upiirobot?startgroup=true"
         ),
     ],
 ]
@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Rio](t.me/riio00)"""
+Support them  [𝘂𝗽𝗶](t.me/fqcxuu)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "𝗕𝗮𝗸𝗲𝗸𝗼𝗸 𝗞𝗼𝗻𝘁𝗼𝗹!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "𝗕𝗮𝗸𝗲𝗸𝗼𝗸 𝗞𝗼𝗻𝘁𝗼𝗹!\n<b>𝗦𝗮𝘆𝗮 𝗔𝗞𝗧𝗜𝗙 𝘀𝗶𝗻𝗰𝗲:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
